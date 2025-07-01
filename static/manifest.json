@@ -1,0 +1,47 @@
+{
+  "name": "Farmers Cooperative Management System",
+  "short_name": "FarmCoop",
+  "description": "Digital platform for managing rural cooperative society operations",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#28a745",
+  "orientation": "portrait-primary",
+  "categories": ["business", "finance", "productivity"],
+  "lang": "en",
+  "icons": [
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PGNpcmNsZSBjeD0iMjU2IiBjeT0iMjU2IiByPSIyNTYiIGZpbGw9IiMyOGE3NDUiLz48cGF0aCBkPSJNMjU2IDEwMGM0My4zIDAgODAuNyAyOC4zIDkzLjMgNjkuMkgzNzJjMTMuMyAwIDI0IDEwLjcgMjQgMjR2MTkyczAtMTAuNy0yNC0yNGgtMjIuN0MzMzYuNyAxMjguMyAyOTkuMyAxMDAgMjU2IDEwMHptMCAzMTJjLTQzLjMgMC04MC43LTI4LjMtOTMuMy02OS4ySDE0MGMtMTMuMyAwLTI0LTEwLjctMjQtMjR2LTE5MnMwIDEwLjcgMjQgMjRoMjIuN0MxNzUuMyAzODMuNyAyMTIuNyA0MTIgMjU2IDQxMnoiIGZpbGw9IiNmZmYiLz48L3N2Zz4=",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOTIiIGhlaWdodD0iMTkyIiB2aWV3Qm94PSIwIDAgMTkyIDE5MiI+PGNpcmNsZSBjeD0iOTYiIGN5PSI5NiIgcj0iOTYiIGZpbGw9IiMyOGE3NDUiLz48cGF0aCBkPSJNOTYgMzZjMTYuMiAwIDMwLjMgMTAuNiAzNS4xIDI1LjlIMTQwYzUgMCA5IDQgOSA5djcyczAtNC05LTloLTguOUM2MS4zIDQ4LjYgMTEyLjIgMzYgOTYgMzZ6bTAgMTE3Yy0xNi4yIDAtMzAuMy0xMC42LTM1LjEtMjUuOUg1MmMtNSAwLTktNC05LTl2LTczczAgNCA5IDloOC45QzE0NC43IDE0My40IDc5LjggMTUzIDk2IDE1M3oiIGZpbGw9IiNmZmYiLz48L3N2Zz4=",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Dashboard",
+      "short_name": "Dashboard",
+      "description": "View main dashboard",
+      "url": "/",
+      "icons": [{"src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NiIgaGVpZ2h0PSI5NiIgdmlld0JveD0iMCAwIDk2IDk2Ij48Y2lyY2xlIGN4PSI0OCIgY3k9IjQ4IiByPSI0OCIgZmlsbD0iIzI4YTc0NSIvPjx0ZXh0IHg9IjQ4IiB5PSI1NiIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjQ4IiBmaWxsPSIjZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj7wn4+gPC90ZXh0Pjwvc3ZnPg==", "sizes": "96x96"}]
+    },
+    {
+      "name": "Members",
+      "short_name": "Members",
+      "description": "Manage cooperative members",
+      "url": "/?section=users",
+      "icons": [{"src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NiIgaGVpZ2h0PSI5NiIgdmlld0JveD0iMCAwIDk2IDk2Ij48Y2lyY2xlIGN4PSI0OCIgY3k9IjQ4IiByPSI0OCIgZmlsbD0iIzI4YTc0NSIvPjx0ZXh0IHg9IjQ4IiB5PSI1NiIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjQ4IiBmaWxsPSIjZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj7wn5GuPC90ZXh0Pjwvc3ZnPg==", "sizes": "96x96"}]
+    },
+    {
+      "name": "Financial",
+      "short_name": "Financial",
+      "description": "Financial management",
+      "url": "/?section=financial",
+      "icons": [{"src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NiIgaGVpZ2h0PSI5NiIgdmlld0JveD0iMCAwIDk2IDk2Ij48Y2lyY2xlIGN4PSI0OCIgY3k9IjQ4IiByPSI0OCIgZmlsbD0iIzI4YTc0NSIvPjx0ZXh0IHg9IjQ4IiB5PSI1NiIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjQ4IiBmaWxsPSIjZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj7wn5KwPC90ZXh0Pjwvc3ZnPg==", "sizes": "96x96"}]
+    }
+  ]
+}
