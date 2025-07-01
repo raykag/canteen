@@ -1,1 +1,10 @@
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 34872
+Unauthorized: /api/
+"GET /api/ HTTP/1.1" 401 58
+"POST /api/auth/login/ HTTP/1.1" 200 483
+"GET /api/users/ HTTP/1.1" 200 34872
+Not Found: /dashboard/
+"GET /dashboard/ HTTP/1.1" 404 8313
+"GET /login/ HTTP/1.1" 200 9881
